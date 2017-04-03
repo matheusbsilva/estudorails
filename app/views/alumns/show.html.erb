@@ -1,0 +1,29 @@
+
+<h1><%=@alumn.name_alumn %></h1>
+
+<hr>
+
+<table>
+  <tr>
+    <th>Matrícula</th>
+    <td><%=@alumn.registry_alumn %></td>
+  </tr>
+  <tr>
+    <th>Endereço</th>
+    <td><%=@alumn.address_alumn %></td>
+  </tr>
+  <tr>
+    <th>Telfone</th>
+    <td><%=@alumn.phone_alumn %></td>
+  </tr>
+  <tr>
+    <th>Sexo</th>
+    <td><%=@alumn.sex_alumn %></td>
+  </tr>
+  <tr>
+    <th>Data de nascimento</th>
+    <td><%=@alumn.birth_date_alumn %></td>
+  </tr>
+</table>
+
+<%= link_to 'Voltar', alumns_path %>

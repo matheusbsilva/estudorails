@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  registry_alumn: 1
+  name_alumn: MyString
+  class_alumn: MyString
+  address_alumn: MyString
+  phone_alumn: MyString
+  birth_date_alumn: MyString
+  sex_alumn: MyString
+
+two:
+  registry_alumn: 1
+  name_alumn: MyString
+  class_alumn: MyString
+  address_alumn: MyString
+  phone_alumn: MyString
+  birth_date_alumn: MyString
+  sex_alumn: MyString

@@ -1,0 +1,15 @@
+<h1>Alunos</h1>
+<p>
+<%= link_to 'Novo aluno', new_alumn_path%>
+</p>
+<table>
+  <% @alumns.each do |alumn| %>
+    <tr>
+      <td><%=alumn.registry_alumn%></td>
+      <td><%=alumn.name_alumn%></td>
+      <td><%=link_to 'Mostrar', alumn_path(alumn)%></td>
+      <td><%=link_to 'Editar',edit_alumn_path(alumn) %></td>
+      <td><%=link_to 'Deletar',alumn_path(alumn), method: :delete, data: {confirm: 'Tem certeza que deseja deletar?'} %></td>
+    </tr>
+  <% end %>
+</table>

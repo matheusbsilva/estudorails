@@ -1,0 +1,39 @@
+<%= form_for (@alumn) do |f| %>
+  <p>
+    <%= f.label :registry_alumn%><br>
+    <%= f.text_field :registry_alumn %>
+  </p>
+  <p>
+    <%= f.label :name_alumn%><br>
+    <%= f.text_field :name_alumn %>
+  </p>
+  <p>
+    <%= f.label :class_alumn%><br>
+    <%= f.text_field :class_alumn %>
+  </p>
+  <p>
+    <%= f.label :address_alumn%><br>
+    <%= f.text_field :address_alumn %>
+  </p>
+  <p>
+    <%= f.label :phone_alumn%><br>
+    <%= f.telephone_field :phone_alumn %>
+  </p>
+  <p>
+    <%= f.label :birth_date_alumn%><br>
+    <%= f.date_field :birth_date_alumn %>
+  </p>
+  <p>
+    <div class="field">
+      <%= f.label :sex_alumn %><br>
+      <%= f.label :sex_alumn, "Masculino", :value => "masculino"  %>
+      <%= f.radio_button :sex_alumn, 'masculino' %>
+      <%= f.label :sex_alumn, "Feminino", :value => "feminino" %>
+      <%= f.radio_button :sex_alumn, 'feminino' %>
+    </div>
+  </p>
+  <p>
+    <%= f.submit%>
+  </p>
+
+  <% end%>

@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  cpf_parent: 1
+  name_parent: MyString
+  address_parent: MyString
+  phone_parent: MyString
+  sex_parent: MyString
+  rg_parent: MyString
+
+two:
+  cpf_parent: 1
+  name_parent: MyString
+  address_parent: MyString
+  phone_parent: MyString
+  sex_parent: MyString
+  rg_parent: MyString

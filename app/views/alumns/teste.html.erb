@@ -1,0 +1,16 @@
+
+<h1><%=@alumn.name_alumn %></h1>
+
+<hr>
+
+<table>
+  <tr>
+    <th>Matrícula</th>
+    <td><%=@alumn.registry_alumn %></td>
+  </tr>
+  <tr>
+    <th>Endereço</th>
+    <td><%=@alumn.address_alumn %></td>
+  </tr>
+
+  <%=link_to 'Voltar', alumns_path %>
